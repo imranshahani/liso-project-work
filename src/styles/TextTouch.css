@@ -1,0 +1,35 @@
+.touch-text{
+    text-align: center;
+    background:#F2F2F2;
+    padding: 70px;
+}
+
+.touch-text h1{
+    font-size: 60px;
+    background: linear-gradient(to right, #FEBB2E 30%,#EF0143 82%,#061178 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.touch-text h3{
+    color: #6A6A6A;
+    font-size: 35px;
+}
+
+.touch-text h3:hover{
+    color: rgb(55, 83, 221);
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .touch-text h1{
+        font-size: 35px;  
+    }
+
+    .touch-text h3{
+        font-size: 23px;
+    }
+
+}

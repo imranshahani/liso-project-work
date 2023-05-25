@@ -1,0 +1,149 @@
+.Product-div {
+  margin-top: 130px;
+}
+.paragraph {
+  padding-left: 70px;
+}
+
+.paragraph h1 {
+  font-size: 45px;
+}
+
+.paragraph h3 {
+  font-size: 25px;
+}
+
+.Product-image {
+  display: flex;
+  overflow-y: auto;
+}
+ 
+.Product-image::-webkit-scrollbar {
+  width: 0px;
+}
+
+.Product-image{
+    padding: 30px 70px;
+}
+
+.Product-image img {
+  width: 300px;
+  height: 280px;
+  margin: 30px;
+}
+
+.image4 {
+  background: #dcdcdc;
+  border-radius: 20px;
+}
+
+.image6 {
+  background: #dcdcdc;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+
+.previous-next{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+.btn{
+    text-align: center;
+    margin: 100px;
+    color: #111111;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn button{
+    width: 200px;
+    height: 35px;
+    color: white;
+    background: #111111;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .Product-div {
+  padding-left: 0px;
+
+  }
+  .paragraph {
+  padding-left: 30px;
+
+  }
+  
+  .paragraph h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .paragraph h3 {
+    font-size: 13px;
+  }
+
+  .paragraph p{
+    font-size: 12px;
+  }
+  
+  .Product-image {
+    display: flex;
+    overflow-y: auto;
+  }
+   
+  .Product-image img::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .Product-image{
+      padding: 10px 30px;
+  }
+  
+  .Product-image img {
+    width: 150px;
+    height: 150px;
+    margin: 0px ;
+  }
+  
+  .image4 {
+    background: #dcdcdc;
+    border-radius: 20px;
+  }
+  
+  .image6 {
+    background: #dcdcdc;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  .previous-next{
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0px;
+      font-size: 12px;
+  }
+  
+  .btn h1{
+    font-size: 25px;
+  }
+  .btn{
+      text-align: center;
+      margin: 100px;
+      color: #111111;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 12px;
+  }
+  
+  .btn button{
+      width: 150px;
+      height: 30px;
+      color: white;
+      background: #111111;
+  }
+  
+
+}

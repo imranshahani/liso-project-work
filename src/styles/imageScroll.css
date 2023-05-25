@@ -1,0 +1,133 @@
+.MainSlider {
+  margin-top: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.slider {
+  margin-top: 22px;
+  padding: 0px 50px;
+  border-radius: 40px;
+  width: 50%;
+  height: 450px; 
+  overflow-x: hidden;
+}
+
+.slider img {
+  width: 95%;
+  height: 410px;
+  padding:10px;
+  border-radius: 20px;
+}
+
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+
+.Text {
+  width: 700px;
+  font-size: 12px;
+}
+
+.Text h1,
+h2 {
+  color: #cc0556;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-btn h3 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card p{
+  font-size: 14px;
+}
+
+
+.text-btn button {
+  width: 180px;
+  height: 35px;
+  color: #111111;
+  font-size: 10px;
+  background: white;
+  text-transform: uppercase;
+}
+
+.text-btn button:hover {
+  color: white;
+  background: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .MainSlider {
+    flex-direction: column-reverse; 
+  }
+
+  .slider {
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 350px;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    overflow: auto;
+    
+  }
+
+  .slider ::-webkit-scrollbar{
+    width: 0px;
+  }
+  
+  .slider img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  
+  
+
+  .Text {
+    width: 300px;
+    font-size: 10px;
+    padding-left: 25px;
+  }
+
+  .Text h1,
+  h2 {
+    color: #cc0556;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .card p{
+    font-size: 12px;
+  }
+
+  .text-btn h3 {
+    font-size: 15px;
+  }
+
+  .text-btn p{
+    font-size: 12px;
+  }
+  
+  .text-btn button {
+    width: 90px;
+    height: 25px;
+    font-size: 8px;
+   
+  }
+  
+  .text-btn button:hover {
+    color: white;
+    background: #000;
+  }
+  
+
+}
